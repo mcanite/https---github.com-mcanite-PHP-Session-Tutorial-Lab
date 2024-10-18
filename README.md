@@ -16,7 +16,7 @@ session_start();
 ?>
 ```
 
-### What’s Happening?
+### What’s Happening? s
 `session_start();` will need to be at the top of the PHP files associated with your webpage. If your PHP file reroutes to other PHP files, you need to include `session_start();` to continue the session [or something like that]. 
 
 ## Setting Session Variables
