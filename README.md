@@ -2,7 +2,7 @@
 Asdfsdfsfsasdfsffsgdfhjk
 
 ## What Are PHP Sessions?
-PHP sessions are one method for storing and accessing user data across the pages of a website, storing data on a server rather than browser. 
+PHP sessions are one method for storing and accessing user data across the pages of a website, storing data on a server rather than browser. These PHP sessions allow sites to maintain continuity of user information as users traverse a website. This continuity maintains info, allowing users to keep the items in their online shopping carts, remain logged in, and other functions until the user leaves the site and ends the session.
 
 ## Why Should I Use PHP Sessions?
 As stated above, PHP sessions are one method for storing user data on a server, as opposed to storing data on the browser like cookies do. 
@@ -45,6 +45,3 @@ Alternatively, we can utilize text boxes to allow users to input their own answe
 
 * [Medium](https://medium.com/@patelharsh7458/php-sessions-explained-practical-usage-and-best-practices-b15df9cc7568)
     * Medium blogs range across diverse topics and this one, authored by Patel Harsh, describes best practices for implementing PHP sessions and examples of when to use PHP sessions. Additionally, this source is unique because it includes code for an elaborate registration/login system using PHP sessions. For those wanting to experiment with PHP sessions in their own code, I would highly recommend looking at this resource to see how the PHP code regarding sessions work, as well as best implementation practices.
-
-* []()
-    * 
