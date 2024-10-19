@@ -1,5 +1,4 @@
 # Introduction
-Asdfsdfsfsasdfsffsgdfhjk
 
 ## What Are PHP Sessions?
 PHP sessions are one method for storing and accessing user data across the pages of a website, storing data on a server rather than browser. These PHP sessions allow sites to maintain continuity of user information as users traverse a website. This continuity maintains info, allowing users to keep the items in their online shopping carts, remain logged in, and other functions until the user leaves the site and ends the session.
@@ -7,9 +6,11 @@ PHP sessions are one method for storing and accessing user data across the pages
 ## Why Should I Use PHP Sessions?
 As stated above, PHP sessions are one method for storing user data on a server, as opposed to storing data on the browser like cookies do. 
 
+Cookies are another method for storing user data, though these are stored on a user's computer, which users can modify for malicious purposes.
+
 # Tutorial
 ## Starting a PHP Session
-In order to start your PHP session, you’ll have to open your session with the following line of code:
+In order to start your PHP session, you’ll have to open your session with the following lines of code:
 
 ```
 <?php
@@ -17,7 +18,7 @@ session_start();
 ?>
 ```
 
-`session_start();` will need to be at the top of the PHP files associated with your webpage. If your PHP file reroutes to other PHP files, you will need to include `session_start();` to continue the session. 
+`session_start();` will need to be at the top of the PHP files associated with your webpage. If your application reroutes users to other pages, you will need to include `session_start();` to be able to access the same session data. Without including `session_start();`, continuity may be broken, like not keeping a user logged in as they access different webpages within a website. 
 
 ## Setting Session Variables
 One way to set session variables is by setting the variables statically in your code.
@@ -27,7 +28,7 @@ asdfs
 ### What’s Happening?
 While running this code snippet, we can see the session variables using web inspect tools. 
 
-[screenshot of session variables on inspe ct]
+[screenshot of session variables on inspect]
 
 Alternatively, we can utilize text boxes to allow users to input their own answers to customize the site. As opposed to statically setting the session variables, users will be able to customize the site. In the previous approach, we were able to see the values we wanted, but this value would have been shown for all users, which might not have been applicable for everyone. 
 
