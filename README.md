@@ -2,10 +2,10 @@
 Asdf
 
 ## What Are PHP Sessions?
-PHP Sessions areblahblahablahoablabalablaalahl.
+PHP sessions are one method for storing and accessing user data across the pages of a website, storing data on a server rather than browser. 
 
 ## Why Should I Use PHP Sessions?
-You’ll want to use PHP Sesssions to blah blah.
+As stated above, PHP sessions are one method for storing user data on a server, as opposed to storing data on the browser like cookies do. 
 
 # Tutorial
 ## Starting a PHP Session
@@ -36,9 +36,15 @@ Alternatively, we can utilize text boxes to allow users to input their own answe
 # Additional Resources
 * [W3Schools](https://www.w3schools.com/php/php_sessions.asp)
     * W3Schools is a well-known source that provides tutorials and code examples for various coding languages, including PHP. Linked above is a page dedicated to PHP sessions, showing how to start a session, set variables, change variables, and destroy a session. This resource is especially value for those learning PHP because it includes mini quizzes relating to the language and little explanations of what's occurring in the provided code snippets. 
+
 * [GeeksForGeeks](https://www.geeksforgeeks.org/php-sessions/)
     * GeeksForGeeks is another well-known reource containing overviews and tutorials for various coding languages, including PHP. In this PHP session tutorial, GeeksForGeeks concisely overviews the different parts about utilizing sessions in PHP, showing how to start a session, set session data, access session data, and destroying session data/whole sessions. I find this source to be especially useful for explaining the significance of PHP sessions in securely storing user data in comparison as opposed to cookies.
+
 * [W3Docs](https://www.w3docs.com/learn-php/php-sessions.html)
     * W3Docs provides a comprehensive overview about PHP sessions with a unique emphasis on security. This resource provides short code snippets showing how to set up PHP sessions and set up variables, as well as how to secure these sessions. Here, W3Docs describes the process of securing PHP sessions to protect user data in multiple ways. 
-* source
-    * asdf
+
+* [Medium](https://medium.com/@patelharsh7458/php-sessions-explained-practical-usage-and-best-practices-b15df9cc7568)
+    * Medium blogs range across diverse topics and this one, authored by Patel Harsh, describes best practices for implementing PHP sessions and examples of when to use PHP sessions. Additionally, this source is unique because it includes code for an elaborate registration/login system using PHP sessions. For those wanting to experiment with PHP sessions in their own code, I would highly recommend looking at this resource to see how the PHP code regarding sessions work, as well as best implementation practices.
+
+* []()
+    * 
